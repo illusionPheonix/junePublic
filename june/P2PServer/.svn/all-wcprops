@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/p2p/!svn/ver/74/branches/Team1/Code/P2PServer
+END
+cross.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/cross.php
+END
+connect.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/connect.php
+END
+updatemoney.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/p2p/!svn/ver/80/branches/Team1/Code/P2PServer/updatemoney.php
+END
+userinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/userinfo.php
+END
+phpinfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/p2p/!svn/ver/72/branches/Team1/Code/P2PServer/phpinfo.php
+END
+realauth.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/realauth.php
+END
+getborrowlist.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/p2p/!svn/ver/80/branches/Team1/Code/P2PServer/getborrowlist.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/p2p/!svn/ver/74/branches/Team1/Code/P2PServer/login.php
+END
+userinfosave.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/userinfosave.php
+END
+borrow.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/p2p/!svn/ver/80/branches/Team1/Code/P2PServer/borrow.php
+END
+recharge.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/80/branches/Team1/Code/P2PServer/recharge.php
+END
+investmoney.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/p2p/!svn/ver/80/branches/Team1/Code/P2PServer/investmoney.php
+END
+personal.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/personal.php
+END
+getsession.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/getsession.php
+END
+register.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PServer/register.php
+END

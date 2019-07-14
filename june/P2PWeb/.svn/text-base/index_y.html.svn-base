@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/index_y.min.css">
+
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- 头部 -->
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/yidai_logo.png" alt="">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="">
+                            <a href="#">首页</a>
+
+
+                        </li>
+                        <li>
+                            <a href="#">我要出借</a>
+                        </li>
+                        <li>
+                            <a href="#">转让专区</a>
+                        </li>
+                        <li>
+                            <a href="#">信息披露</a>
+                        </li>
+                        <li>
+                            <a href="#">友谊之家</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">登录 &emsp;&emsp;|</a>
+                        </li>
+
+                        <li>
+                            <a href="#">注册</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+    </header>
+    <!-- 内容 -->
+   
+    <!-- 轮播图 -->
+    <main>
+    
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./assets/images/banner1.png" alt="...">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/banner2.png" alt="...">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/banner3.png" alt="...">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/banner4.png" alt="...">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/banner5.png" alt="...">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="container-fluid py-cf2">
+
+            <div class="container ">
+                <div class="row py-tm">
+                
+                    <div class="col-md-3">
+                        <p class="p1">163,402.40(元)</p>
+                        <p>可收购债权金额</p>
+                        <p>(截至2019-04-28)</p>
+
+                    </div>
+                    <div class="col-md-3">
+                        <p class="p1">56,572.78(元)</p>
+                        <p>昨日可收购债权金额</p>
+                        <p>(截至2019-04-28)</p>
+
+                    </div>
+                    <div class="col-md-3">
+                        <p class="p1">17,514,521.03(元)</p>
+                        <p>累积收购债权金额</p>
+                        <p>(截至2019-04-28)</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="p1">17,351,118.63(元)</p>
+                        <p>累积转让金额</p>
+                        
+                    </div>
+                </div>
+                
+           
+                <!-- 四大特色 -->
+                <div class="row py-feature">
+                    <div class="col-md-3"><img src="./assets/images/tese1.png" alt=""></div>
+                    <div class="col-md-3"><img src="./assets/images/tese2.png" alt=""></div>
+                    <div class="col-md-3"><img src="./assets/images/tese3.png" alt=""></div>
+                    <div class="col-md-3"><img src="./assets/images/tese4.png" alt=""></div>
+    
+                
+                </div>
+                <!-- 新手引导 -->
+                <div class="row py-hands">
+                    <div class="col-md-9">
+                        <p class="phdah">新手引导</p>
+                        <div class="row py-con">
+                            <div class="col-sm-3">
+                                <p class="py-p">免费注册</p>
+                                <p class="py-p1">30秒快速注册</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="py-p">身份认证</p>
+                                <p class="py-p1">实名身份证认证</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="py-p">充值出借</p>
+                                <p class="py-p1">在线快捷支付</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="py-p">坐享收益</p>
+                                <p class="py-p1">到期自动回收本金收益</p>
+                            </div>
+                            
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-3"><img src="./assets/images/img_indexdownload.png"></div>
+
+
+                </div>
+
+
+
+                <!-- 最新发布 -->
+                <p class="py-new">最新发布</p>
+                <div class="py-newmsg">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+       
+
+
+
+    </main>
+
+
+   
+
+
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 py-msg">
+                    <p>关于宜贷</p>
+                    <p>关于平台</p>
+                    <p>公司概况</p>
+                    <p>诚聘英才</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="col-md-1 py-msg">
+                    <p>宜贷风采</p>
+                    <p>媒体报道</p>
+                    <p>走进宜贷</p>
+                    <p>企业文化</p>
+                    <p>荣誉资质</p>
+                </div>
+                <div class="col-md-2 py-msg">
+                    <p>新手上路</p>
+                    <p>借款利率</p>
+                    <p>新手必读</p>
+                    <p>网站公告</p>
+                    
+                </div>
+                <div class="col-md-3 py-wx">
+                    <p class="py-wx1">关注我们：宜贷与你快乐分享</p>
+
+                    <img src="./assets/images/app_qrcode.jpg" style="width: 100px;" alt="">&emsp;
+                    <img src="./assets/images/app_qrcode.jpg" style="width: 100px;" alt="">
+
+                    <p class="py-wx2">官方微信：宜贷网  官方App：宜贷网</p>
+
+                </div>
+                <div class="col-md-3 py-num">
+                    <p>全国服务热线：9:00-21:30</p>
+                    <p class="num">4000-018-018</p>
+                    <p>公司地址：上海市嘉定区银翔路819号中暨大厦10楼1006室</p>
+                    <p>邮编：610066 Email：mail@yidai.com</p>
+                    <p>上海易贷网金融信息服务有限公司　沪ICP备15020893号-1</p>
+                    <p>Copyright©2014-2018 Shanghai Yidai Co.,Ltd.All Rights Reserved.</p>
+                      
+                </div>
+
+            </div>
+            
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

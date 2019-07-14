@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="./dist/css/borrow_y.min.css">
+
+<div class="container">
+    <div class="row py-con">
+        <div class="col-md-4 py-box">
+            <div class="py-header">信用贷</div>
+            <div class="py-msg">
+                <p class="py-sum">可借金额 <i>¥ 2,000.00</i></p>
+                <a href="#">申请条件</a>
+                <p class="py-region">仅限成都地区</p>
+                <ul>
+                    <li>填写基本信息</li>
+                    <li>身份认证</li>
+                    <li>视频认证</li>
+                </ul>
+                <a href="?type=credit#/borrow_apply" class="btn btn-primary py-proposer">立刻申请</a>
+            </div>
+        </div>
+        <div class="col-md-4 py-box">
+            <div class="py-header" style="background-color: #ec7e20;">车易贷</div>
+            <div class="py-msg">
+                <p class="py-sum">可借金额 <i>¥ 2,000.00</i></p>
+                <a href="#">申请条件</a>
+                <p class="py-region">仅限成都地区</p>
+                <ul>
+                    <li>填写基本信息</li>
+                    <li>身份认证</li>
+                    <li>视频认证</li>
+                </ul>
+                <a href="?type=car#/borrow_apply" class="btn btn-primary py-proposer">立刻申请</a>
+            </div>
+        </div>
+        <div class="col-md-4 py-box">
+            <div class="py-header" style="background-color: #2ca2ee;">房易贷</div>
+            <div class="py-msg">
+                <p class="py-sum">可借金额 <i>¥ 2,000.00</i></p>
+                <a href="#">申请条件</a>
+                <p class="py-region">仅限成都地区</p>
+                <ul>
+                    <li>填写基本信息</li>
+                    <li>身份认证</li>
+                    <li>视频认证</li>
+                </ul>
+                <a href="?type=house#/borrow_apply" class="btn btn-primary py-proposer">立刻申请</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

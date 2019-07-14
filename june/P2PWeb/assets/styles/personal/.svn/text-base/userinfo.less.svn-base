@@ -1,0 +1,12 @@
+@charset 'utf-8';
+// 主色
+@basecolor: #4f79bc;
+
+.form-horizontal {
+    width: 700px;
+
+    input,
+    select {
+        width: 300px;
+    }
+}

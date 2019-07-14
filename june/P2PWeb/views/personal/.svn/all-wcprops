@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/p2p/!svn/ver/74/branches/Team1/Code/P2PWeb/views/personal
+END
+accountflow_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/accountflow_list.html
+END
+borrow_apply.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/p2p/!svn/ver/74/branches/Team1/Code/P2PWeb/views/personal/borrow_apply.html
+END
+bid_request_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/bid_request_list.html
+END
+login_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/login_list.html
+END
+personal.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/personal.html
+END
+borrowBidReturn_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/borrowBidReturn_list.html
+END
+personalCenter.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/personalCenter.html
+END
+realAuth.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/realAuth.html
+END
+userinfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/userinfo.html
+END
+money_withdraw_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/money_withdraw_list.html
+END
+recharge_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/65/branches/Team1/Code/P2PWeb/views/personal/recharge_list.html
+END

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/borrow_info_y.min.css">
+</head>
+<body>
+    
+    <div class="container" style="margin-top: 20px;">
+
+        <!-- 借款人 -->
+        <div class="row py-msg">
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">借款人</h3>
+                    </div>
+                    <div class="panel-body py-borrower">
+                        <img class="" src="./dist/images/head_icon.jpg" alt="">
+                        <p class="py-name">
+                            <a href="#" class="text-info">zs</a>
+                        </p>
+                        <p>籍贯：<span>四川 - 成都</span></p>
+                        <p>专职客服：<span class="text-info">源妹妹</span></p>
+                        <p>认证信息：</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 py-con">
+                <h3 class="text-info">zs借款</h3>
+                <p>借款金额 &emsp; <span class="text-info">2,000.00</span></p>
+                <p>年化利率 &emsp; <span class="text-info">10.00%</span></p>
+                <p>借款期限 &emsp; <span class="text-info">3月</span></p>
+                <p>投标奖励 &emsp; <span class="text-info">0.00</span></p>
+                <p>还款方式 &emsp; <span class="text-info">按月分期还款</span></p>
+                <p>最小投标 &emsp; <span class="text-info">20.000</span></p>
+                <p>剩余时间 &emsp; <span class="text-info"></span></p>
+                
+                
+            </div>
+            <div class="col-md-3 py-right">
+                <p>投标总数 &emsp; <span class="text-info">2</span></p>
+                <p>还需金额 &emsp; <span class="text-info">0.00元</span></p>
+                <p>投标进度</p>
+                <div class="py-plan  progress-bar-info progress-bar-striped"></div>
+                <h4>还款中</h4>
+                
+            </div>
+
+        </div>
+        <!-- 借款人信息 -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">借款人信息</h3>
+            </div>
+            <div class="panel-body py-BorrowerMsg">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>注册时间 &emsp; <span class="text-info">2015-03-30</span></p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>借款额度 &emsp;  <span class="text-info">2000</span></p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>性别  &emsp; <span class="text-info">男</span></p>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <p>年龄 &emsp; <span class="text-info">25</span></div></p>
+                </div>
+                <p>
+                    文化程度 &emsp; <span class="text-info">硕士研究生</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    每月收入 &emsp; <span class="text-info">3000-4999</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- 审核认证信息 -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">审核认证信息</h3>
+            </div>
+            <div class="panel-body">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="text-right text-muted">认证时态度</td>
+                            <td width="10%" style="padding-left: 10px;" class="text-info">
+                                优
+                            </td>
+                            <td class="muted text-right text-muted">信贷知识掌握情况</td>
+                            <td width="10%" style="padding-left: 10px;" class="text-info">
+                                优
+                            </td>
+                            <td class="muted text-right text-muted">借款感言</td>
+                            <td width="50%" style="padding-left: 10px;" class="text-info">
+                                给我2000度过难关
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="muted text-right text-muted">审核员认证意见</td>
+                            <td width="150px" style="padding-left: 10px;" colspan="5" class="text-info">
+                                <div style="word-break:break-all;">
+                                    啊啊啊啊啊
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 认证信息 -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">材料证信息</h3>
+            </div>
+            <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>材料类型</th>
+                                <th>材料数量</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>本人身份证</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+
+        <!-- 还款情况 -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">还款情况</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead >
+                        <tr>
+                            <th>还款状态</th>
+                            <th>最近一周</th>
+                            <th>最近1月</th>
+                            <th>最近6月</th>
+                            <th>6个月前</th>
+                            <th>总计[?]</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>提前还款</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>准时还款</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>逾期还款</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>逾期未还</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 投标记录 -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">投标记录</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>投标人</th>
+                            <th>年利率</th>
+                            <th>有效金额(￥)</th>
+                            <th>投标时间</th>
+                            <th>类型</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>zs****</td>
+                            <td>10%</td>
+                            <td class="text-info">1,000.00</td>
+                            <td>2016-05-11 06:42:11</td>
+                            <td>手动投标</td>
+
+                        </tr>
+                        <tr>
+                            <td>zs****</td>
+                            <td>10%</td>
+                            <td class="text-info">1,000.00</td>
+                            <td>2016-05-12 13:44:01</td>
+                            <td>手动投标</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>

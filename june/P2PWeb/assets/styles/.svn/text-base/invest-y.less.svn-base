@@ -1,0 +1,10 @@
+.py-thead{
+    font-size: 16px;
+    color: #999;
+}
+.py-tody{
+    font-size: 16px;
+    button{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P2P</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fonts/iconfont/iconfont.css">
+    <link rel="stylesheet" href="/lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
+    <link rel="stylesheet" href="/dist/css/login_y.min.css">
+    <!-- 引入js -->
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/lib/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+    <script src="/lib/bootstrapvalidator/dist/js/language/zh_CN.js"></script>
+    <script src="/lib/slideVerify/js/jq-slideVerify.js"></script>
+    <script src="/src/login.js"></script>
+
+
+</head>
+
+<body>
+    <!-- 页头 -->
+    <header>
+        <!-- 顶端导航 -->
+        <nav class="navbar navbar-inverse py-topnav">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">市场有风险，出借需谨慎！</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">全国服务热线：4000-018-018</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li>
+                            <a href="#">
+                                关注我们：
+                                <span class="iconfont">&#xe646;</span>
+                                <span class="iconfont">&#xe62f;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- logo部分 -->
+        <div class="py-logo container">
+            <img src="/dist/images/yidai_logo.png" alt="">
+            <h3>用户登录</h3>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <main id="content">
+    <div class="py-bg">
+        <div class="container py-con">
+            <div class="py-login">
+                <p class="py-hd"> 账号登录</p>
+                <p class="py-error">用户名或密码输入错误，请重新输入!</p>
+                <form action="http://127.0.0.1:80/login.php" method="POST" id="login_form">
+                    <div class="form-group">
+                        <label for="username">用户名</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">密&emsp;码</label>
+                        <input type="password" class="form-control" id="pwd" name="pwd" placeholder="请输入密码">
+                    </div>
+                    <!-- 插件 -->
+                    <div class="selfDiv" style="width: 300px;margin: 0 auto;">
+                        <div class="verify-wrap" id="verify-wrap"></div>
+                    </div>
+                    <p class="py-forget"><a href="#">忘记密码?</a></p>
+    
+                    <button type="submit" class="btn btn-success py-first-btn">登录</button>
+                    <p class="py-sign">没有账号？ <a href="/register.html">免费注册> ></a></p>
+                </form>
+    
+    
+    
+            </div>
+        </div>
+    
+    </div>
+
+    </main>
+    <!-- 页脚 -->
+    <footer>
+        <ul>
+            <li><a href="#">宜贷首页</a></li>
+            <li><a href="#">我要出借</a></li>
+            <li><a href="#">新手引导</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+        <p>Copyright©2014-2016 Shanghai Yidai Co.,Ltd.All Rights Reserved.沪ICP备15020893号-1</p>
+    </footer>
+</body>
+
+</html>
+
+
+

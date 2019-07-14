@@ -1,0 +1,168 @@
+@charset 'utf-8';
+// 主色
+@basecolor: #4f79bc;
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+
+header {
+    color: #fff;
+
+    // 共同导航样式
+    .navbar {
+        border-radius: 0;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    // 顶端导航
+    .py-topnav {
+        height: 40px;
+        min-height: 40px;
+
+        a {
+            color: #fff !important;
+            padding-top: 0;
+            padding-bottom: 0;
+            line-height: 40px;
+            font-size: 14px;
+
+            &:hover {
+                color: @basecolor  !important;
+            }
+        }
+    }
+
+    .py-logo {
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+
+        h3 {
+            font-weight: bold;
+            color: @basecolor;
+            margin-left: 20px;
+        }
+    }
+
+}
+
+.py-bg {
+    height: 480px;
+    background: url("/dist/images/login_banner_normal.png") no-repeat;
+    background-position-x: -1px;
+
+    .py-con {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+
+        .py-login {
+            width: 350px;
+            height: 400px;
+            background-color: #fff;
+            padding: 0 24px;
+            border-radius: 4px;
+
+            .py-hd {
+                height: 60px;
+                line-height: 60px;
+                font-size: 22px;
+                text-align: center;
+                color: #333;
+                border-bottom: 2px solid #ffe57d;
+                margin-bottom: 20px;
+            }
+
+            .py-error {
+                text-align: center;
+
+                font-size: 12px;
+                color: red;
+                display: none;
+            }
+
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            .py-forget {
+                padding-left: 238px;
+
+                a {
+                    color: #818181
+                }
+            }
+
+            .py-first-btn {
+                width: 100%;
+                color: #fff;
+                height: 40px;
+            }
+
+            .py-sign {
+                margin-top: 14px;
+                text-align: center;
+            }
+
+        }
+    }
+
+}
+
+footer {
+    padding: 40px 0;
+    font-size: 12px;
+    background: #eee;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        margin: 10px auto;
+
+        li {
+            text-align: center;
+
+            &:not(:last-child) {
+                border-right: 1px solid #666;
+
+            }
+
+            a {
+                margin-right: 20px;
+                color: #666;
+
+                &:hover {
+                    color: @basecolor;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+
+    p {
+        color: #666;
+        text-align: center;
+    }
+}

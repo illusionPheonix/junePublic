@@ -1,0 +1,108 @@
+<link rel="stylesheet" href="/dist/css/personal/borrow_apply.min.css">
+<!-- 右侧面板 -->
+<div class="container">
+  <div class="py-top">
+    <h2><span id='py-borrow-title'>信用</span>借款</h2>
+    <span class="text-primary">授信额度：<span class="text-danger">2000</span></span>
+    <span class="text-primary">可借金额：<span class="text-danger">2000</span></span>
+</div>
+<div class="page-header py-header">
+    <h1>借款信息<span class="label label-primary">信用标</span></h1>
+</div>
+<form class="form-horizontal" action='http://127.0.0.1:80/borrow.php' method="POST">
+    <div class="form-group">
+        <label class="col-sm-4 control-label">借款金额：</label>
+        <div class="col-sm-8">
+            <div class="input-group">
+                <input type="text" class="form-control" name='borrowmoney' id="py-borrowmoney">
+                <div class="input-group-addon">元</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">借款利息：</label>
+        <div class="col-sm-8">
+            <div class="input-group">
+                <input type="text" name='interest' class="form-control" id="py-interest">
+                <div class="input-group-addon">%</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">借款期限：</label>
+        <div class="col-sm-8">
+            <div class="input-group">
+                <select class="form-control" id='py-borrowtime' name='borrowtime'>
+                    <option>1</option>
+                    <option>3</option>
+                    <option>6</option>
+                    <option>12</option>
+                    <option>24</option>
+                    <option>36</option>
+                </select>
+                <div class="input-group-addon">月</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">还款方式：</label>
+        <div class="col-sm-8">
+            <label class="radio-inline">
+                <input type="radio" name="repaytime" value="0"> 按月分期
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="repaytime" value="1"> 按月到期
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">最小投标：</label>
+        <div class="col-sm-8">
+            <div class="input-group">
+                <input type="text" class="form-control" name='minbid'>
+                <div class="input-group-addon">元</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">招标天数：</label>
+        <div class="col-sm-8">
+            <div class="input-group">
+                <select class="form-control" name='days'>
+                    <option>1</option>
+                    <option>7</option>
+                    <option>14</option>
+                    <option>21</option>
+                    <option>30</option>
+                </select>
+                <div class="input-group-addon">天</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">借款标题：</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" name="title">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">借款描述：</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" name="info">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-10">
+            <button type="submit" class="btn btn-primary">提交申请</button>
+        </div>
+    </div>
+    <!-- 浮动面板 -->
+    <div class="py-float">
+        <p>相关费用</p>
+        <p class="text-primary">利息： <span id="py-totalInterest">--</span>元</p>
+        <p class="text-primary">管理费： <span id="py-managementFee">--</span>元<p>      
+    </div>
+</form>  
+</div>
+
+    <script src="/dist/js/borrow.min.js"></script>

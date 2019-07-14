@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="/dist/css/seedetails.min.css">
+<div>
+    <div class="py-img-bg">
+
+    </div>
+    <div class="container-fluid py-see">
+        <div class="container py-dedtails">
+            <h3><span class="glyphicon glyphicon-yen"></span>借款详情：</h3>
+            <table class='table table-striped'>
+                <tr>
+                    <td>借款标题：<span id='py-detail-title'>- -</span></td>
+                </tr>
+                <tr>
+                    <td>借款人：<span id='py-detail-userid'>- -</span></td>
+                </tr>
+                <tr>
+                    <td>金额：<span id='py-detail-borrowmoney'>- -</span>元</td>
+                </tr>
+                <tr>
+                    <td>年利率：<span id='py-detail-interest'>- -</span>%</td>
+                </tr>
+                <tr>
+                    <td>还款方式：<span id='py-detail-repaytime'>- -</span></td>
+                </tr>
+                <tr>
+                    <td>进度：<span id='py-detail-progress'>- -</span>%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputPassword3" >投资金额</label>
+                        <input type="text" class="form-control" id="py-investmoney" placeholder="输入投资金额">
+                    </td>
+                </tr>
+
+            </table>
+
+            <div class="classpy-input">
+                <button class="btn btn-primary btn-lg" id='py-detail-btn'>投资</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="/dist/js/seedetails.min.js"></script>

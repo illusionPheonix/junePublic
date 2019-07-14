@@ -1,0 +1,425 @@
+@charset 'utf-8';
+
+// 主色
+@basecolor: #4f79bc;
+
+// 主体部分
+main {
+    #slider {
+        position: relative;
+
+        img {
+            height: 100%;
+        }
+
+        // 扫码框
+        .py-register {
+            background: rgba(0, 0, 0, .4);
+            border-radius: 0;
+            border: none;
+            position: absolute;
+            top: 50%;
+            right: 160px;
+            transform: translateY(-50%);
+            width: 320px;
+            height: 300px;
+            color: #fff;
+            padding: 50px 20px;
+
+            .py-code {
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .py-info {
+                p {
+                    padding-bottom: 10px;
+
+                    span {
+                        color: #eee;
+                    }
+
+                    a {
+                        color: #fff;
+                    }
+
+                    .btn {
+                        background: #f60;
+
+                        &:hover {
+                            background: rgba(250, 108, 13, 0.863);
+                        }
+                    }
+                }
+            }
+
+            .py-scan {
+                display: none;
+
+                img {
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #f60;
+                }
+
+                .py-tips {
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    b {
+                        display: inline-block;
+                        height: 1px;
+                        width: 100px;
+                        background: #fff;
+                    }
+                }
+            }
+
+
+            .py-font {
+                font-size: 50px;
+                color: #f60;
+
+                small {
+                    font-size: 50%;
+                }
+            }
+        }
+    }
+
+    .py-intro-1 {
+        padding: 20px 0;
+        color: #666;
+
+        .py-text {
+            padding: 0;
+
+            div {
+                float: left;
+
+                p {
+                    margin-left: 10px;
+                    margin-bottom: 4px;
+                    color: #999;
+
+                    &:first-child {
+                        font-size: 18px;
+                        color: #f60;
+                    }
+                }
+            }
+        }
+
+        .iconfont {
+            font-size: 36px;
+            color: @basecolor;
+        }
+    }
+
+    .py-intro-2 {
+        background: #eee;
+        padding: 20px;
+        padding-bottom: 0;
+
+        //资金展现
+        .py-text {
+            background: #fff;
+            padding: 20px;
+
+            p {
+                color: #999;
+                margin-bottom: 4px;
+
+                &:first-child {
+                    font-size: 20px;
+                    color: #f60;
+                }
+            }
+        }
+
+        // 特点展示
+        .py-feature {
+            padding-right: 10px;
+            padding-left: 0px;
+
+            &:last-child {
+                padding-right: 0px;
+            }
+
+            .py-out {
+                text-align: left;
+                margin-top: 20px;
+                padding: 30px 20px;
+                background: #5ed3b6;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                transition: all 1s;
+                cursor: pointer;
+
+                &:hover {
+                    box-shadow: 0 0 12px #aaa;
+                    transform: scale(1.05);
+                }
+
+                p {
+                    color: #fff;
+
+                    &:first-child {
+                        font-size: 24px;
+                        margin-bottom: 10px;
+                        font-weight: bold;
+                    }
+                }
+
+                .iconfont {
+                    font-size: 60px;
+                    color: rgba(161, 161, 161, 0.6);
+                }
+            }
+
+        }
+
+        // 新手指引
+        .py-hands {
+            height: 134px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            color: #999;
+
+            .py-guide {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-content: space-around;
+                padding-right: 10px;
+                padding-left: 0;
+
+                .py-inner {
+                    height: 100%;
+                    background-color: #fff;
+
+                    .phdah {
+                        margin: 16px;
+                        color: #999;
+                    }
+
+                    .py-con {
+                        line-height: 24px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin-bottom: 16px;
+
+                        .iconbox {
+                            border-radius: 50%;
+                            width: 60px;
+                            height: 60px;
+                            background-color: rgb(255, 214, 187);
+                            text-align: center;
+                            line-height: 60px;
+                            color: #f60;
+
+                            .iconfont {
+                                font-size: 30px;
+                            }
+                        }
+
+                        .py-register {
+                            .py-p {
+                                color: #f60;
+                            }
+
+                            .py-p1 {
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .py-img {
+                padding-right: 0;
+                height: 100%;
+                padding-left: 0;
+                ;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .py-newPubish {
+        background: #eee;
+
+        .container {
+            padding: 0;
+
+            // 最新发布
+            h4 {
+                padding: 10px 0;
+            }
+
+            .panel {
+                border-radius: 0;
+
+                .panel-heading {
+                    background: #fff;
+                    height: 50px;
+                    border: none;
+
+                    h3 {
+                        line-height: 30px;
+
+                        .iconfont {
+                            font-size: 20px;
+                            color: #f60;
+                        }
+
+                        span {
+                            color: #f60;
+                            font-size: 16px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+
+                .panel-body {
+                    padding: 0;
+
+                    table {
+                        tr {
+                            td {
+                                padding: 20px 20px;
+                                vertical-align: middle;
+
+                                p {
+                                    color: #f60;
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                }
+
+                                .py-pro {
+                                    margin: 10px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .py-news {
+                margin-bottom: 20px;
+
+                .py-left-news {
+                    padding: 20px 30px;
+                    background: #fff;
+
+                    .py-left {
+                        a:hover {
+                            text-decoration: none;
+                        }
+
+                        padding-top: 15px;
+
+                        .py-imgbox {
+                            margin-bottom: 10px;
+                            position: relative;
+
+                            img {
+                                width: 100%;
+                            }
+
+                            p {
+                                position: absolute;
+                                bottom: 0;
+                                background: rgba(0, 0, 0, .5);
+                                color: #fff;
+                                text-align: center;
+                                left: 0;
+                                width: 100%;
+                                line-height: 28px;
+                            }
+                        }
+
+                        .py-content {
+                            color: #666;
+                            line-height: 28px;
+                            text-indent: 2em;
+                        }
+                    }
+                }
+
+                .py-right-news {
+                    padding: 20px 30px;
+                    background: #fff;
+
+                    .newslist {
+                        padding: 0;
+                        margin: 0;
+                        list-style: none;
+                        margin-top: 20px;
+
+                        li {
+                            padding: 9px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            position: relative;
+
+                            b {
+                                color: @basecolor;
+                                font-size: 25px;
+                                position: absolute;
+                                top: -5px;
+                                left: 4px;
+                            }
+
+                            a {
+                                width: 250px;
+                                display: inline-block;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .py-table-render {
+        padding: 20px 0;
+
+        .panel-heading {
+            border-bottom: 1px solid #ddd !important;
+        }
+
+        #py-first-borrowlist {
+
+            tr {
+
+                &:hover {
+                    background: #f5f5f5;
+                }
+
+                border-bottom: 1px solid #ddd;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+p{margin: 0;padding: 0;}
+
+header{
+    .navbar {
+        margin-bottom: 0;
+        
+        li{
+            
+            a{
+                padding-top: 39px;
+                padding-bottom: 39px;
+                font-size: 18px;
+                padding-right: 38px;
+                
+            
+                
+            }
+        }
+    }
+}
+main{
+    .py-cf2{
+        background: #f2f2f2;
+
+        .py-tm{
+            background-color: #fff;
+            margin-top: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px 0;
+            p{
+                color: #999;
+            }
+            .p1{
+                font-size: 20px;
+                color: #f60;
+            }
+        }
+        .py-feature{
+            margin-bottom: 20px;
+            
+        }
+        .py-hands{
+            background-color: #fff;
+            margin-bottom: 30px;
+
+            .phdah{
+                margin-top: 20px;margin-left: 20px;
+                box-sizing: border-box;
+            }
+            .py-con{
+                text-align: center;
+                line-height: 28px;
+                .py-p{
+                    color: #f60;
+                font-size: 18px;
+                }
+                .py-p1{
+                    color: #999;
+                }
+            }
+        }
+        .py-new{
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .py-newmsg{
+            background-color: #fff;
+            height: 400px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+footer{
+    padding-top: 30px;
+    
+    
+    background-color: #333;
+    color: #9b9b9b;
+    .py-msg{
+        line-height: 26px;
+        margin-right: 40px;
+    }
+    .py-wx{
+        .py-wx1{
+            margin-bottom: 10px;
+        }
+        .py-wx2{
+            margin-top: 10px;
+        }
+    }
+    .py-num{
+        padding-bottom: 20px;
+        .num{
+            
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+    }
+    
+}

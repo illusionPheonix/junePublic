@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core
+END
+ready.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/ready.js
+END
+toType.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/toType.js
+END
+nodeName.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/nodeName.js
+END
+DOMEval.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/DOMEval.js
+END
+stripAndCollapse.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/stripAndCollapse.js
+END
+isAttached.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/isAttached.js
+END
+ready-no-deferred.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/ready-no-deferred.js
+END
+support.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/support.js
+END
+camelCase.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/camelCase.js
+END
+parseHTML.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/parseHTML.js
+END
+access.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/access.js
+END
+init.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/init.js
+END
+readyException.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/p2p/!svn/ver/15/branches/Team1/Code/P2PWeb/lib/jquery/src/core/readyException.js
+END

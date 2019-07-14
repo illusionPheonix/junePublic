@@ -1,0 +1,34 @@
+
+<!-- 右侧面板 -->
+<div class="panel panel-default">
+    <div class="panel-heading">还款计划</div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>期数</th>
+                    <th>金额(元)</th>
+                    <th>本金(元)</th>
+                    <th>利息(元)</th>
+                    <th>状态</th>
+                    <th>详情</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2016-07-08</td>
+                <td>11</td>
+                <td>1000</td>
+                <td class="text-primary">990</td>
+                <td class="text-danger">10</td>
+                <td class="text-success">已还</td>      
+                <td>
+                    <span class="label label-primary">信</span>
+                    <a href="#">江湖救急</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

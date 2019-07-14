@@ -1,0 +1,170 @@
+@charset 'utf-8';
+
+// 主色
+@basecolor: #4f79bc;
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    color: #fff;
+
+    // 共同导航样式
+    .navbar {
+        border-radius: 0;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    // 顶端导航
+    .py-topnav {
+        height: 40px;
+        min-height: 40px;
+
+        a {
+            color: #fff !important;
+            padding-top: 0;
+            padding-bottom: 0;
+            line-height: 40px;
+            font-size: 14px;
+
+            &:hover {
+                color: @basecolor  !important;
+            }
+        }
+    }
+
+    .py-logo {
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+
+        h3 {
+            font-weight: bold;
+            color: @basecolor;
+            margin-left: 20px;
+        }
+    }
+
+}
+
+#content {
+    .container {
+        background: #fff;
+        .left {
+            padding: 30px 90px 10px;
+
+            legend {
+                font-size: 24px;
+                color: #666;
+
+            }
+
+            form {
+                padding: 20px 0;
+                font-weight: normal;
+
+                .form-group {
+                    margin-bottom: 30px !important;
+                }
+
+                label {
+                    font-weight: normal !important;
+                    padding-right: 0 !important;
+                }
+
+                .code {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .input-val {
+                    width: 60%;
+                }
+
+                #canvas {
+                    vertical-align: middle;
+                    box-sizing: border-box;
+                    border: 1px solid #ddd;
+                    cursor: pointer;
+                }
+
+                .py-form-gorunp {
+                    margin-bottom: 0;
+                }
+                #py-error{
+                    font-size:12px; 
+                }
+
+            }
+        }
+
+        .right {
+            padding: 70px 100px;
+
+            p {
+                line-height: 26px;
+                margin-top: 10px;
+                color: #666;
+            }
+
+        }
+
+    }
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 20px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        margin: 10px auto;
+
+        li {
+            text-align: center;
+
+            &:not(:last-child) {
+                border-right: 1px solid #666;
+
+            }
+
+            a {
+                margin-right: 20px;
+                color: #666;
+
+                &:hover {
+                    color: @basecolor;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+
+    p {
+        color: #666;
+        text-align: center;
+    }
+}

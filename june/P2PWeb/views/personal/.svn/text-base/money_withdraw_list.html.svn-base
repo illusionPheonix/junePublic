@@ -1,0 +1,27 @@
+
+<!-- 右侧面板 -->
+<div class="panel panel-default">
+    <div class="panel-heading">提现记录</div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>金额(¥)</th>
+                    <th>手续费(¥)</th>
+                    <th>提交时间 </th>
+                    <th>到账时间 </th>
+                    <th>提现状态 </th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1999.00</td>
+                <td>0.00</td>
+                <td>2017-02-28 19:08:29</td>
+                <td>2017-02-28 19:18:52</td>
+                <td>提现成功 ( 快速 )</td>      
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

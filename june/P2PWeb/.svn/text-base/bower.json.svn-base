@@ -1,0 +1,17 @@
+{
+  "name": "P2PWeb",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "illusionPheonix <455626681@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

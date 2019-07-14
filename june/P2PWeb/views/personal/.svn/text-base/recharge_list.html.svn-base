@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/dist/css/personal/recharge_list.min.css">
+<!-- 右侧面板 -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <span>充值明细</span>  
+        <button type="button" class="btn btn-danger btn-sm">账户充值</button>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>充值时间</th>
+                    <th>充值金额</th>
+                    <th>充值状态</th>
+                    <th>备注</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2015-03-11 10:45:10</td>
+                <td>500.00</td>
+                <td>充值成功</td>
+                <td>线下充值500</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

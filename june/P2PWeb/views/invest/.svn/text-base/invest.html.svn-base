@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="./dist/css/invest_y.min.css">
+
+<div class="container">
+    <h4>投资列表</h4>
+    <form action="invest_list.html" id="searchForm">
+        <div style="margin: 20px 0px;">
+            <span class="text-muted">标的状态</span>
+            <div style="margin-left: 30px" class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default active">
+                    <input type="radio" checked />&emsp;全部&emsp;
+                </label>
+                <label class="btn btn-default">
+                    <input type="radio" />&emsp;招标中&emsp;
+                </label>
+                <label class="btn btn-default">
+                    <input type="radio" />&emsp;还款中&emsp;
+                </label>
+            </div>
+        </div>
+    </form>
+    <table class="table table-hover">
+        <thead class="py-thead">
+            <tr>
+                <th>借款人</th>
+                <th>借款标题</th>
+                <th>年利率</th>
+                <th>金额</th>
+                <th>还款方式</th>
+                <th>进度</th>
+                <th>操作</th>
+            </tr>
+
+        </thead>
+        <tbody class="py-tody" id='py-borrow-list'>
+           
+        </tbody>
+
+    </table>
+
+
+</div>
+
+<script src="/dist/js/invest.min.js"></script>
